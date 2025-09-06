@@ -1,0 +1,19 @@
+#+title: 🙵 ampersand 🙵
+
+Set images on the desktop background.
+
+* Install
+
+#+begin_example
+$ uv tool install git+https://github.com/brettviren/ampersand
+#+end_example
+
+* Use:
+
+#+begin_example
+$ ampersand
+
+$ ampersand once -d /path/to/a/bunch/of/images
+$ ampersand cycle -d /path/to/a/bunch/of/images -p 300
+#+end_example
+
