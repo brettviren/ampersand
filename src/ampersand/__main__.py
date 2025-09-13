@@ -91,6 +91,7 @@ def get_file(dname):
 
 
 @click.group("ampersand")
+@click.pass_context
 def cli(ctx):
     '''
     Set display backgrounds.
